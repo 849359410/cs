@@ -1,0 +1,162 @@
+.top {
+    height: 60px;
+    width: 100%;
+    background-color: #494949;
+}
+
+.top ul li:nth-child(1) {
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.swiper-container {
+    background-image: url("../img/bg.png");
+    width: 100%;
+    height: 180px;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 180px;
+}
+
+.tell {
+    height: 70px;
+    width: 100%;
+    background-color: #b44;
+}
+
+.tell-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.tell span {
+    font-size: 14px;
+    display: inline-block;
+    color: #000;
+    height: 50%;
+    width: 100%;
+    padding: 7px 0 0 20px;
+}
+
+.daiLi {
+    background-color: #3f3f3f;
+}
+
+.daiLi div {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: #494949 solid 1px;
+}
+
+.daiLi div img {
+    width: 95%;
+}
+
+.daiLi ul li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+    font-size: 10px;
+    color: #ccc;
+    border-right: #494949 solid 1px;
+    border-bottom: #494949 solid 1px;
+    position: relative;
+}
+
+.daiLi ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    z-index: 99999;
+    color: #ccc;
+}
+
+.daiLi ul li i {
+    color: #e50635;
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+#icon {
+    color: #333;
+}
+
+#icoa {
+    color: #333;
+}
+
+.kong {
+    height: 10px;
+    width: 100%;
+    background-color: #333;
+}
+
+.show-tab {
+    background-color: #3f3f3f;
+}
+
+.show-tab ul li {
+    width: 33.33%;
+    float: left;
+    font-size: 14px;
+    line-height: 125px;
+    color: #7a7a7a;
+    height: 125px;
+    text-align: center;
+    border-right: #494949 solid 1px;
+    border-bottom: #494949 solid 1px;
+}
+
+.show-tab ul li img {
+    margin-top: 12.555px;
+    width: 100px;
+    height: 100px;
+}
+
+.ff {
+    width: 100%;
+    height: 46px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 46px;
+    width: 100%;
+}
+
+.foot {
+    height: 46px;
+    width: 100%;
+    background-color: #b44;
+    position: relative;
+}
+
+.foot .foot-center {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    border: 1px dashed rgba(0, 0, 0, .45);
+    border-left: none;
+    border-right: none;
+    font-size: 12px;
+    color: #300;
+    text-align: center;
+}
